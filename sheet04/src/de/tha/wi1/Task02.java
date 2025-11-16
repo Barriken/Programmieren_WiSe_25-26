@@ -24,6 +24,8 @@ public class Task02 {
 //			}
 //		}
 		
+		
+		// Test Push for GitHub.com
 		//2
 		for (int i=0; i<data.length; i++) {
 			min = min>data[i]?data[i]:min;
