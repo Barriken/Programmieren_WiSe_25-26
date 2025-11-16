@@ -15,6 +15,7 @@ public class Task02 {
 			    14, 58, 29, 94, 1, 62, 5, 79, 36, 82, 37, 4, 44, 72, 92, 51, 55, 74, 86, 14
 			};
 
+		//Überarbeiten
 		// 1
 //		for (int i=0; i<data.length; i++) {
 //			System.out.print(data[i] + ", ");

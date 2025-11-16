@@ -6,6 +6,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/Florian/Documents/WiSe_2025-26/Prog1/Übung/progTools.jar"/>
+	<classpathentry kind="lib" path="C:/Users/morit/OneDrive/Dokumente/Uni/1. Semester/Programmieren/progTools.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
