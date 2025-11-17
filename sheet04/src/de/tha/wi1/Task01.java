@@ -4,6 +4,7 @@ public class Task01{
 	
 	public static void main(String[] args) {	
 		
+		// Done.
 		
 		int day = 30;
 		int month = 10;
@@ -21,6 +22,7 @@ public class Task01{
 		int c = year / 100;
 		
 		wochentag = (day + (((26 * (month + 1))/10) + ((5 * y)/4) + (c/4) + 5 * c - 1)) % 7;
+		
 		
 		//Sheet 04 add on: Arrays
 		String[] daysOfTheWeek = {"Sonntag", "Montag", "Dienstag", "Mittwoch","Donnerstag", "Freitag", "Samstag"};
