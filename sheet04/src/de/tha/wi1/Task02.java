@@ -106,5 +106,6 @@ public class Task02 {
 		System.out.println();
 		System.out.println("Häufigste Zahl (Modus): " + currentModus);
 		System.out.println("Häufigkeit: " +  currentModusCount);
+		
 	}
 }
