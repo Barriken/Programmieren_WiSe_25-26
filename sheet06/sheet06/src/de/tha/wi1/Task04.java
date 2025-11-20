@@ -12,26 +12,24 @@ public class Task04 {
 		initWindow(windowSize, windowSize, "Wer das liest ist doof");
 		int tileSize = windowSize / row;
 		int yCoordinate = 0;
+		int counter = 0;
 		for (int i = 0; i < row; i++) 
 		{
 			int xCoordinate = 0;
-			boolean printWhite = true;
+			
 			for (int j = 0; j < col; j++) 
 			{
 				String color = null;
-				if (printWhite) {
+				if ((j + i ) % 2 == 0) {
 					color = "white";
-					printWhite = false;
 				}
 				else {
 					color = "black";
-					printWhite = true;
 				}
-				drawFilledRectangle(yCoordinate, xCoordinate, tileSize, tileSize, color);
+				drawFilledRectangle(xCoordinate, yCoordinate, tileSize, tileSize, color);
 				xCoordinate += tileSize;
 			}
 			yCoordinate += tileSize;
 		}
-		
 	}
 }
