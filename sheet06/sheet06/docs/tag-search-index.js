@@ -1,0 +1,1 @@
+tagSearchIndex = [{"l":"Note:","h":"class de.tha.tools.Window","d":"Section","u":"de/tha/tools/Window.html#note--heading"},{"l":"Serialized Form","h":"","u":"serialized-form.html"},{"l":"Usage:","h":"class de.tha.tools.Window","d":"Section","u":"de/tha/tools/Window.html#usage--heading"}];updateSearchResults();
