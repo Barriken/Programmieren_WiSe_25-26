@@ -13,11 +13,12 @@ public class Task03 {
 		
 	}
 	
-	// Chars klein machen
+
 	public static char[] convertToSmall (char[] characters) 
 	{
 		for (int i = 0; i < characters.length; i++) 
 		{
+			// Umwandlung mithilfe von ASCII 
 			if (characters[i] >= 65 && characters[i] <= 90) 
 			{
 				characters[i] = (char)(characters[i] + 32);
@@ -26,9 +27,10 @@ public class Task03 {
 		return characters;
 	}
 	
-	// Nach Palindrom checken
+	
 	public static boolean isPalindrome(char[] letters) 
 	{
+		// Invertiertes Array erstellen
 		char[]invertedLetters = new char[letters.length]; 
 		
 		int indexer = 0;
@@ -36,8 +38,7 @@ public class Task03 {
 			invertedLetters[indexer] = letters[i];
 			indexer++;
 		}
-//		return (invertedLetters == letters);
-		
+		// Arrays auf Gleichheit prüfen
 		for(int i = 0; i < invertedLetters.length; i++)
 		{
 			if(invertedLetters[i] != letters[i])
@@ -45,7 +46,6 @@ public class Task03 {
 				return false;
 			}
 		}
-		
 		return true;
 	}
 }
