@@ -12,7 +12,7 @@ public class Task03 {
 	
 	printFormel(a, b, c);
 	printErgebnis(a, b, c);
-	
+	System.out.println();
 	}
 	
 	public static void printErgebnis( float a, float b, float c ) {
