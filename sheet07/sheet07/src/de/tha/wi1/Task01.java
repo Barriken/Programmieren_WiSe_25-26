@@ -38,15 +38,13 @@ public class Task01 {
 		if (n == 0) {
 			return 1;
 		}
-		n--;
-		return x * powerRecursive(x,n);
+		return x * powerRecursive(x,n - 1);
 	}
 	
 	public static double powerRecursive (double x, int n) {
 		if (n == 0) {
 			return 1;
 		}
-		n--;
-		return x * powerRecursive(x,n);
+		return x * powerRecursive(x,n - 1);
 	}	
 }
