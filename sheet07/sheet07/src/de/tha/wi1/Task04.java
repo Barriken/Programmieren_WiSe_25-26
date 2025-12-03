@@ -41,6 +41,8 @@ public class Task04 {
 			int counter = 1;
 			for (int j = 0; j < sudoku.length; j++) 
 			{
+				// Wenn sich die 2 Sudokus an einer Stelle unterscheiden,  
+				// heißt das, dass an dieser Stelle eine Zahl gelöst wurde.
 				if (sudoku[i][j] != unsolvedSudoku[i][j]) {
 					System.out.print("\u001B[32m " + sudoku[i][j] + " \u001B[0m");
 				}
