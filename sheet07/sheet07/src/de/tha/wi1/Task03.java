@@ -30,6 +30,8 @@ public class Task03 {
 		{
 			depth--;
 			s = s / 3;
+			
+			// Die Koordinaten der Schneeflocken können mit s angepasst werden
 			snowflake(x + s, y, s, depth);
 			snowflake(x + s, y + s, s, depth);
 			snowflake(x + s + s, y + s, s, depth);
@@ -37,6 +39,7 @@ public class Task03 {
 			snowflake(x, y + s, s, depth);
 		}
 	}
+	
 	
 	public static void snowflakeStar (int x, int y, int s, int depth) 
 	{
@@ -49,6 +52,8 @@ public class Task03 {
 		{
 			depth--;
 			s = s / 3;
+			
+			// Die Koordinaten der Schneeflocken können mit s angepasst werden
 			snowflakeStar(x, y, s, depth);
 			snowflakeStar(x, y + 2 * s, s, depth);
 			snowflakeStar(x + s, y + s, s, depth);
