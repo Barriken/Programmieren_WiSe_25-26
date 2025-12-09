@@ -16,7 +16,9 @@ public class Task04 {
 		
 		int[][] unsolvedSudoku = copy(sudoku);
 		boolean isSolved = solve(sudoku);
-		System.out.println("Das Sudoku konnte" + (isSolved ? " erfolgreich " : " nicht ") + "gelöst werden");
+
+		System.out.println("Das Sudoku konnte" + (isSolved ? " erfolgreich " : " leider nicht ") + "gelöst werden.");
+
 		
 		if (isSolved) {
 			printSudoku(unsolvedSudoku, sudoku);
