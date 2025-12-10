@@ -81,6 +81,8 @@ public class Task04 {
 			counter++;
 		} while (counter < 50 && Math.abs(NewtonSchritt) > Math.pow(10,-14) && Math.abs(resultAbleitung) > Math.pow(10,-14));
 
+		
+		// Ergebnis ausgeben
 		System.out.println();
 		if (Math.abs(resultAbleitung) < Math.pow(10,-14)) {
 			System.out.println("Keine Nullstelle gefunden.");
